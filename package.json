@@ -16,7 +16,7 @@
     "npm-run-path": "^2.0.2",
     "semver": "^5.5.1",
     "tslib": "^1.9.3",
-    "yarn": "^1.9.4"
+    "yarn": "^1.10.0"
   },
   "devDependencies": {
     "@oclif/config": "^1.7.6",
