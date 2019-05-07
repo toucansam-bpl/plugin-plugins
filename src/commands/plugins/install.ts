@@ -49,6 +49,9 @@ e.g. If you have a core plugin that has a 'hello' command, installing a user-ins
         plugin = await this.plugins.install(p.url, {force: flags.force})
       }
       cli.action.stop(`installed v${plugin.version}`)
+      await this.config.runHook('plugins:postinstall', {
+        plugin: p
+      })
     }
   }
 
