@@ -1,5 +1,5 @@
 {
-  "name": "@oclif/plugin-plugins",
+  "name": "@toucansam-bpl/plugin-plugins",
   "description": "plugins plugin for oclif",
   "version": "1.7.8",
   "author": "Jeff Dickey @jdxcode",
